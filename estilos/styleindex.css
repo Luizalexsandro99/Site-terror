@@ -1,0 +1,126 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
+
+@font-face {
+    font-family: terror-sub;
+    src: url(../font/Terrorplate.ttf);
+}
+
+@font-face {
+    font-family: terror-cab;
+    src: url(../font/Sinister\ Black.ttf);
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.774);
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.171);
+    margin-top: -5px;
+}
+
+header > h1 {
+    color: white;
+    font-family: terror-cab ;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 3.5em;
+}
+
+header > p {
+    font-family: terror-sub;
+    color: white;
+    text-align: center;
+    font-size: 1.4em;
+    margin-top: -0.8em;
+    padding-bottom: 0.5em;
+}
+
+nav {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.171);
+    padding-bottom: 0.2em;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 3px 12px 3px 12px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0.226);
+    border-radius: 5px;
+}
+
+main {
+    max-width: 800px;
+    min-height: 900px;
+    padding-top: 35px;
+    padding-left: 35px;
+    background-image: url(../img/fundo-site.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    opacity: 0.6;
+    border-radius: 7px;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.192);
+    margin: auto;
+}
+
+#aviso {
+    color: white;
+    max-width: 35%;
+    min-width: 40%;
+    border: 2px solid rgba(255, 255, 255, 0.411);
+}
+
+#are-you {
+    font-family: terror-sub;
+    line-height: 1.2em;
+    text-align: center;
+}
+
+#aviso > p {
+    text-align: center;
+    padding: 3px;
+}
+
+#imgindex2 {
+    float: right;
+    margin-top: -125px;
+    border-radius: 20px;
+}
+
+picture > p {
+    text-align: center;
+    opacity: 0.2;
+}
+
+.euquero {
+    margin-left: 45%;
+    margin-top: 50%;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.411);
+}
+
+.euquero:hover {
+    background-color: rgba(0, 0, 0, 0.356);
+    border-radius: 5px;
+    text-decoration: none;
+    max-width: max-content ;
+}
+
+.vindo {
+    margin-left: 40%;
+    margin-top: 98vh;
+    color: white;
+    font-family: terror-sub;
+}

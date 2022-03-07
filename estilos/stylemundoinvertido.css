@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@font-face {
+    font-family: terror;
+    src: url(font/Terrorplate.ttf);
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.87);
+    color: white;
+    font-family: terror;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.877);
+    color: white;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+#sobre {
+    max-width: 70%;
+    line-height: 1.4em;
+}
+
+#sobre > h2 {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#sobre > p {
+    text-align: justify;
+}
+
+#sinistros {
+    max-width: 28%;
+    margin-left: 110%;
+    margin-top: -190px;
+    padding-bottom: 15px;
+}
