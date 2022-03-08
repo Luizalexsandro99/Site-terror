@@ -5,11 +5,15 @@
 
 @font-face {
     font-family: terror;
-    src: url(font/Terrorplate.ttf);
+    src: url(../font/Terrorplate.ttf);
+}
+
+body {
+    background-color: black;
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.87);
+    background-color:black;
     color: white;
     font-family: terror;
     text-align: center;
@@ -20,30 +24,58 @@ header {
 main {
     max-width: 800px;
     margin: auto;
-    background-color: rgba(0, 0, 0, 0.877);
+    box-shadow: 2px 1px 5px rgba(56, 55, 55, 0.664);
+    height: 100%;
+    background-image: linear-gradient(to top, rgb(37, 37, 37), black);
     color: white;
     padding-top: 15px;
-    padding-left: 20px;
-}
-
-#sobre {
-    max-width: 70%;
-    line-height: 1.4em;
-}
-
-#sobre > h2 {
-    margin-top: 30px;
-    margin-bottom: 5px;
-    text-align: center;
-}
-
-#sobre > p {
-    text-align: justify;
-}
-
-#sinistros {
-    max-width: 28%;
-    margin-left: 110%;
-    margin-top: -190px;
+    padding-left: 10px;
     padding-bottom: 15px;
+}
+
+.comoh {
+    margin-bottom: 5px;
+    border-radius: 10px;
+    margin-left: 15px;
+    text-align: center;
+    background-image: linear-gradient(to right, black,rgba(255, 255, 255, 0.151));
+}
+
+.como {
+    text-indent: 10px;
+    text-align: center;
+    margin: 0px 10px 5px;
+    margin-bottom: 10px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.322);
+}
+
+.estamos {
+    text-align: center;
+    opacity: 0.3;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#sodo {
+    margin-top: 10px;
+    background-image: linear-gradient(to left, black, rgba(255, 255, 255, 0.116));
+}
+
+.butao {
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+
+}
+
+.fuja {
+    text-decoration: none;
+    color: white;
+    float: right;
+    margin-right: 14px;
 }
