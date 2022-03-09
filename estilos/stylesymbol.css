@@ -112,3 +112,12 @@ main > article > p {
     text-align: center;
     margin-left: 15px;
 }
+
+.voltar {
+    color: red;
+    text-decoration: none;
+}
+
+.voltar:hover {
+    text-decoration: underline;
+}
