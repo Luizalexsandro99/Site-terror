@@ -30,6 +30,7 @@ header > h1 {
     padding-top: 5px;
     text-align: center;
     font-size: 3.5em;
+    margin-bottom: 6px;
 }
 
 header > p {
